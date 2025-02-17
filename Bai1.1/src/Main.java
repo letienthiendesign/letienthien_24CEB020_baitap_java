@@ -5,8 +5,6 @@ public class Main {
         Circle c2 = new Circle(2.0);
         System.out.println("The circle has a radius of " + c2.getRadius() + " and area of " + c2.getArea());
 
-        /* Circle c3 = new Circle();
-        System.out.println(c1.radius=5.0); */
 
         Circle c4 = new Circle();
         c4.setRadius(5.5);
@@ -14,8 +12,7 @@ public class Main {
         c4.setColor("green");
         System.out.println("color is: " + c4.getColor());
 
-        /* System.out.println(c4.setRadius(4.4)); */
-
+     
         Circle c5 = new Circle(5.5);
         System.out.println(c5.toString());
 
