@@ -11,7 +11,6 @@ public class Main {
         System.out.println("Month: " + d1.getMonth());
         System.out.println("Day: " + d1.getDay());
         System.out.println("Year: " + d1.getYear());
-
         d1.setDate(3, 4, 2016);
         System.out.println(d1);
     }
